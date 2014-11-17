@@ -7,6 +7,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <!-- facebook opengraph stuff -->
+    <meta property="fb:app_id" content="1585819831648403" />
+    <meta property="article:author" content="https://www.facebook.com/letkiewicz" />
+    <meta property="article:publisher" content="https://www.facebook.com/HollyLphotography" />
+    <meta property="og:title" content="holly letkiewicz photography">
+    <meta property="og:url" content="http://www.hollyletphotography.com">
+    <meta property="og:description" content="Live your life. I'll capture it.">
+    <meta property="og:type" content="website" />
+    <meta property="og:image"  content="http://www.hollyletphotography.com/assets/img/preview.png" />
+
+
     <title>holly letkiewicz photography</title>
 
     <!-- Bootstrap Core CSS -->
@@ -65,6 +76,23 @@
 <!-- Alternate Body Classes: .modern and .vintage -->
 
 <body id="page-top" class="modern">
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '1585819831648403',
+        xfbml      : true,
+        version    : 'v2.2'
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
 
     <!-- Navigation -->
     <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
