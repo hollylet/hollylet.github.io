@@ -1,0 +1,12 @@
+.logo-font {
+  font-family: Pacifico,cursive;
+}
+
+.logo-font.top-logo {
+  line-height: 25px;
+}
+
+.logo-font.middle-logo {
+  font-size: 48px;
+  line-height: 65px;
+}
