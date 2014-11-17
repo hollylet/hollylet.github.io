@@ -10,3 +10,8 @@
   font-size: 48px;
   line-height: 65px;
 }
+
+#caption {
+  color: white;
+  top: 150px;
+}
