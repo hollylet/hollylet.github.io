@@ -1,17 +1,23 @@
 .logo-font {
-  font-family: Pacifico,cursive;
+  font-family: 'Rancho', Georgia, serif;
 }
 
 .logo-font.top-logo {
-  line-height: 25px;
+  font-size: 120%;
+  line-height: 80%;
+
 }
 
 .logo-font.middle-logo {
-  font-size: 48px;
-  line-height: 65px;
+  font-size: 360%;
+  line-height: 80%;
 }
 
 #caption {
   color: white;
   top: 150px;
+}
+
+#navbar-logo-container {
+  text-align: center;
 }
